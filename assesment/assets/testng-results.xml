@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-28T08:28:21Z" name="Test Suite for Buildout" finished-at="2024-08-28T08:29:45Z" duration-ms="83737">
+    <groups>
+    </groups>
+    <test started-at="2024-08-28T08:28:21Z" name="Test Cases for Buildout" finished-at="2024-08-28T08:29:45Z" duration-ms="83737">
+      <class name="demo.TestCases">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:58:21Z" name="startBrowser" finished-at="2024-08-28T13:58:24Z" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:58:24Z" name="openUrl" finished-at="2024-08-28T13:58:28Z" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase01()[pri:1, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:58:28Z" name="testCase01" description="URL assertion and about page message printing" finished-at="2024-08-28T13:58:29Z" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:58:29Z" name="openUrl" finished-at="2024-08-28T13:58:32Z" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase02()[pri:2, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:58:32Z" name="testCase02" description="Assertion for the movie is marked &#039;A&#039; for Mature or not and whether the movie is either &#039;Comedy&#039; or &#039;Animation&#039;" finished-at="2024-08-28T13:59:02Z" duration-ms="30403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:02Z" name="openUrl" finished-at="2024-08-28T13:59:03Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase03()[pri:3, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:03Z" name="testCase03" description="URL assertion and about page message printing" finished-at="2024-08-28T13:59:07Z" duration-ms="3321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:07Z" name="openUrl" finished-at="2024-08-28T13:59:08Z" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase04()[pri:4, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:08Z" name="testCase04" description="URL assertion and about page message printing" finished-at="2024-08-28T13:59:12Z" duration-ms="4474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:14Z" name="openUrl" finished-at="2024-08-28T13:59:15Z" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase05(java.lang.String)[pri:5, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:15Z" name="testCase05" data-provider="excelData" finished-at="2024-08-28T13:59:23Z" duration-ms="8103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Movies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:23Z" name="openUrl" finished-at="2024-08-28T13:59:24Z" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase05(java.lang.String)[pri:5, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:24Z" name="testCase05" data-provider="excelData" finished-at="2024-08-28T13:59:32Z" duration-ms="7564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:32Z" name="openUrl" finished-at="2024-08-28T13:59:33Z" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase05(java.lang.String)[pri:5, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:33Z" name="testCase05" data-provider="excelData" finished-at="2024-08-28T13:59:43Z" duration-ms="10155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@5553d0f5]" started-at="2024-08-28T13:59:43Z" name="endTest" finished-at="2024-08-28T13:59:45Z" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- demo.TestCases -->
+    </test> <!-- Test Cases for Buildout -->
+  </suite> <!-- Test Suite for Buildout -->
+</testng-results>
